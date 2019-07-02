@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "strictNullChecks":true,
+    },
+    // 入口文件
+    "include": [
+        "**/*.ts"
+    ]
+}
