@@ -1,3 +1,3 @@
-function create<T,U>(c: {new(): T|U; }): T|U {
-    return new c();
+function convert<T>(input:T[]):number{
+    return input.length;
 }
