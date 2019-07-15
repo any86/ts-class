@@ -4,6 +4,8 @@ interface Goods<T>{
     size: T;
 }
 
-
 let apple:Goods<string> = {id:1,title: '苹果', size: 'large'};
 let shoes:Goods<number> = {id:1,title: '苹果', size: 43};
+
+
+let obj:object = [12,321]

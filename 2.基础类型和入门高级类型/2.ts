@@ -19,3 +19,6 @@ class Dog implements Animate{
         return word;
     }
 }
+
+enum Color {Red, Green, Blue};
+const b:object = Color;
