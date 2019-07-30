@@ -1,11 +1,2 @@
-// interface Fish{
-//     swimming:boolean;
-// }
-
-// interface Bird{
-//     flying:boolean;
-// }
-
-
-
-
+type A = 'top'|'right'|'bottom'|'left';
+let a:A = 'none';
