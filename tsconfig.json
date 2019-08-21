@@ -39,6 +39,6 @@
     },
     // 入口文件
     "include": [
-        "src/*.ts"
+        "5.命名空间(namespace)/51.ts"
     ]
 }

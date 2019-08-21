@@ -15,3 +15,13 @@ type B = Sizzle.Selectors
 declare var n:number
 
 n=123
+
+
+export namespace A {
+    export const  s  = 'sss123';
+    export class A1{
+        constructor(){
+            console.log('A1');
+        }
+    }
+}
