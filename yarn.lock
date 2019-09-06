@@ -19,6 +19,18 @@
   resolved "https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.2.tgz#a811b8c18e2babab7d542b3365887ae2e4d9de47"
   integrity sha512-7EJYyKTL7tFR8+gDbB6Wwz/arpGa0Mywk1TJbNzKzHtzbwVmY4HR9WqS5VV7dsBUKQmPNr192jHr/VpBluj/hg==
 
+any-event@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.npm.taobao.org/any-event/download/any-event-0.4.1.tgz#538a2c5ae66f587a85cc48c0438c021b2c61d352"
+  integrity sha1-U4osWuZvWHqFzEjAQ4wCGyxh01I=
+
+any-touch@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.npm.taobao.org/any-touch/download/any-touch-0.4.4.tgz#50bf2b01accdea2726dcbc3e25d1c4a5c6adfffa"
+  integrity sha1-UL8rAazN6icm3Lw+JdHEpcat//o=
+  dependencies:
+    any-event "^0.4.1"
+
 typescript@^3.5.2:
   version "3.5.2"
   resolved "https://registry.npmjs.org/typescript/-/typescript-3.5.2.tgz#a09e1dc69bc9551cadf17dba10ee42cf55e5d56c"
