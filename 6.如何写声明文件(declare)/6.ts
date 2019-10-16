@@ -1,27 +1,11 @@
-declare namespace lib {
-    let a:number;
-    function b(n:number):string;
-    interface ABC{
-        ab:number;
-        (s:string):string[];
-    }
-}
-
-type A = lib.ABC
-type B = Sizzle.Selectors
+// new global.String(123).fancyFormat({fancinessLevel:123});
 
 
 
-declare var n:number
 
-n=123
+const isString = (val: any):boolean => typeof val === 'string'
+let aa:null|string = Math.random() < 0.5? null: '123';
 
-
-export namespace A {
-    export const  s  = 'sss123';
-    export class A1{
-        constructor(){
-            console.log('A1');
-        }
-    }
+if(isString(aa)){
+    aa.substring(0,1);
 }

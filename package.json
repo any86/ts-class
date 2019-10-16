@@ -2,10 +2,12 @@
   "scripts": {
     "build": "npx tsc"
   },
-
   "dependencies": {
-    "@types/jquery": "^3.3.31",
-    "@types/lodash": "^4.14.137",
+    "@types/node": "^12.7.4",
+    "jquery": "^3.4.1",
     "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.31"
   }
 }
