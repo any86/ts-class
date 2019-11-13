@@ -1,11 +1,23 @@
-// Global compile-time constants
-declare var __DEV__: boolean
-declare var __TEST__: boolean
-declare var __BROWSER__: boolean
-declare var __RUNTIME_COMPILE__: boolean
-declare var __COMMIT__: string
-declare var __VERSION__: string
+declare var n: number;
+declare let s: string;
+declare const o: object;
+declare function f(s: string): number;
+declare enum dir {
+    top,
+    right,
+    bottom,
+    left
+}
 
-// Feature flags
-declare var __FEATURE_OPTIONS__: boolean
-declare var __FEATURE_SUSPENSE__: boolean
+declare namespace MyPlugin {
+    var n:number;
+    var s:string;
+    var f:(s:string)=>number;
+}
+
+
+interface ABC{
+    a:1|2|3,
+    b:'t'|'s',
+    c:'中'|'国'
+}

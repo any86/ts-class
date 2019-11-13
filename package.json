@@ -5,6 +5,7 @@
   "dependencies": {
     "@types/jquery": "^3.3.31",
     "@types/lodash": "^4.14.137",
+    "@types/three": "^0.103.2",
     "any-touch": "^0.4.4",
     "typescript": "^3.5.2"
   },

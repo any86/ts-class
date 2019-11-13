@@ -1,1 +1,1 @@
-var a = !!__DEV__;
+MyPlugin.say('123');
