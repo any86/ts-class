@@ -39,9 +39,9 @@ any-touch@^0.4.4:
     any-event "^0.4.1"
 
 three@*:
-  version "0.110.0"
-  resolved "https://registry.npmjs.org/three/-/three-0.110.0.tgz#8719591de1336269113ee79f4268ba247b2324f8"
-  integrity sha512-wlurH8XBO9Sd5VIw8nBa+taLR20kqaI4e9FiuMh6tqK8eOS2q2R+ZoUyufbyDTVTHhs8GiTbv0r2CMLkwerFJg==
+  version "0.137.1"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.137.1.tgz#30405bc22bafe3934cfc0f41f2d63b7e1b00da37"
+  integrity sha512-GwoWu7jL0YEwtAPMt2MijplOeSslFYJgORGxkEE19aRd2fk53VQPKYwsA+Lj7M19dQl4AI6Knv+jUK8F0L67Tg==
 
 typescript@^3.5.2:
   version "3.6.2"
